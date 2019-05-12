@@ -1,6 +1,13 @@
-# Steps to run the API
+# Update Gold Rate
 
-1. CD into cloned repo.
-2. Run ```npm install```
-3. Run ```node index.js```
-4. Run ```node update.js```
+Change the gold rate inside the index.js file.
+
+## Steps to run the API
+
+1. Open the terminal.
+2. Run the command `git clone https://github.com/raaj2045/Dynamic-Woo-Price-Updater.git`.
+3. Run the command `cd Dynamic-Woo-Price-Updater`.
+4. Run the command `npm install`
+5. Run the command `npm run update`
+
+All prices on the site will be updated!

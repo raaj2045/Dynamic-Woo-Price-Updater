@@ -11,8 +11,6 @@ var WooCommerce = new WooCommerceAPI({
 
 WooCommerce.get("products?per_page=100", async function(err, data, res) {
   var products = await JSON.parse(res);
-  var length = await products.length;
-  console.log(length);
   for (const productId in products) {
     if (products.hasOwnProperty(productId)) {
       const product = products[productId];
